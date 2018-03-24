@@ -1,0 +1,27 @@
+<div style="text-align:center;font-size:20px">
+  <table style="width:100%;font-size:30px">
+    <tr style="text-align:center;font-size:20px;background:blanchedalmond">
+      <td colspan="2">
+          <h1>{{ header}}</h1>  
+      </td>
+    </tr>
+    <tr>
+      <td>
+         <h2>Input me: </h2>
+      </td>
+      <td>
+          <input type="text" size="50" style="font-size:20px" [(ngModel)]="input1" />   
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <h2>{{input1}}</h2>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <button (click)="onClick()" style="font-size:20px">CLick ME!</button>
+    </td>
+  </tr>
+  </table>
+</div>
